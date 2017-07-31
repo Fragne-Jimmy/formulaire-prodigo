@@ -1,0 +1,627 @@
+0000.003 (0) Opened log file at time: Tue, 15 Nov 2016 15:36:46 +0000 on http://prodigo.fr
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.15 WP: 4.5.4 PHP: 5.4.45 (Linux webm289.cluster017.ha.ovh.net 3.14.79-grsec-hosting-web-3.14 #1 SMP Thu Oct 20 14:47:42 UTC 2016 x86_64) MySQL: 5.5.52 WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 27.6M | 28.3M) multisite: N openssl: OpenSSL 0.9.8o 01 Jun 2010 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.009 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.011 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.018 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1479136865, seconds_ago=87341)
+0000.020 (0) Semaphore (fd) was stuck, set lock time to 2016-11-15 15:36:46
+0000.022 (0) Semaphore (fd) reset to 1
+0000.024 (0) Set semaphore last lock (fd) time to 2016-11-15 15:36:46
+0000.025 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=9d7213eaa894, begun at=1479224206 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1479224506) in case this run gets aborted
+0000.042 (0) Checking if we have a zip executable available
+0000.043 (0) Testing: /usr/bin/zip
+0000.245 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.249 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.250 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.252 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.253 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.254 (0) Binary zip: error (code: -1)
+0000.260 (0) Creation of backups of directories: beginning
+0000.271 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.609 (0) Total entities for the zip file: 416 directories, 3215 files (0 skipped as non-modified), 49.2 MB
+0002.618 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.688 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 100 files added (on-disk size: 70.6 KB)
+0002.730 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 200 files added (on-disk size: 70.6 KB)
+0002.773 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 300 files added (on-disk size: 70.6 KB)
+0002.817 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 400 files added (on-disk size: 70.6 KB)
+0002.862 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 500 files added (on-disk size: 70.6 KB)
+0002.865 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 MB, 3215 files batched, 501 (502) added so far); re-opening (prior size: 70.6 KB)
+0003.209 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 600 files added (on-disk size: 1808.5 KB)
+0003.254 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 700 files added (on-disk size: 1808.5 KB)
+0003.379 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 800 files added (on-disk size: 1808.5 KB)
+0003.427 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 900 files added (on-disk size: 1808.5 KB)
+0003.477 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1000 files added (on-disk size: 1808.5 KB)
+0003.479 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 3215 files batched, 501 (1003) added so far); re-opening (prior size: 1808.5 KB)
+0003.732 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1100 files added (on-disk size: 2492.4 KB)
+0003.780 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1200 files added (on-disk size: 2492.4 KB)
+0003.827 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1300 files added (on-disk size: 2492.4 KB)
+0003.872 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1400 files added (on-disk size: 2492.4 KB)
+0003.920 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1500 files added (on-disk size: 2492.4 KB)
+0003.933 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.9 MB, 3215 files batched, 501 (1504) added so far); re-opening (prior size: 2492.4 KB)
+0004.751 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1600 files added (on-disk size: 7346.2 KB)
+0004.800 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1700 files added (on-disk size: 7346.2 KB)
+0004.847 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1800 files added (on-disk size: 7346.2 KB)
+0004.897 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 1900 files added (on-disk size: 7346.2 KB)
+0004.948 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2000 files added (on-disk size: 7346.2 KB)
+0004.952 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11 MB, 3215 files batched, 501 (2005) added so far); re-opening (prior size: 7346.2 KB)
+0006.001 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2100 files added (on-disk size: 11232.9 KB)
+0006.063 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2200 files added (on-disk size: 11232.9 KB)
+0006.112 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2300 files added (on-disk size: 11232.9 KB)
+0006.163 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2400 files added (on-disk size: 11232.9 KB)
+0006.212 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2500 files added (on-disk size: 11232.9 KB)
+0006.216 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.9 MB, 3215 files batched, 501 (2506) added so far); re-opening (prior size: 11232.9 KB)
+0007.401 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2600 files added (on-disk size: 14127.2 KB)
+0007.452 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2700 files added (on-disk size: 14127.2 KB)
+0007.503 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2800 files added (on-disk size: 14127.2 KB)
+0007.554 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 2900 files added (on-disk size: 14127.2 KB)
+0007.604 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 3000 files added (on-disk size: 14127.2 KB)
+0007.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 3215 files batched, 501 (3007) added so far); re-opening (prior size: 14127.2 KB)
+0009.999 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 3100 files added (on-disk size: 18488.4 KB)
+0010.053 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip.tmp: 3200 files added (on-disk size: 18488.4 KB)
+0011.338 (0) Created plugins zip (0) - 19103.1 KB in 11.1 s (1726.7 KB/s) (SHA1 checksum: 51fb2cf43a3573e49790ac507c7a9852de5b14cc)
+0011.341 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.653 (0) Total entities for the zip file: 59 directories, 435 files (0 skipped as non-modified), 5 MB
+0011.691 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.729 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.765 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.801 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.658 (0) Created themes zip (0) - 3436.2 KB in 1.3 s (2617.2 KB/s) (SHA1 checksum: 7d3ebee685282e90d5973478a1fa531a7a26efc0)
+0012.662 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0012.663 (0) Looking for candidates to back up in: /home/prodigofne/www/wp-content/uploads
+0012.665 (0) finding files: 2016: adding to list (1)
+0012.666 (0) finding files: 2015: adding to list (2)
+0012.667 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0013.067 (0) Total entities for the zip file: 23 directories, 522 files (0 skipped as non-modified), 252.5 MB
+0013.071 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (48.9 MB, 522 files batched, 6 (6) added so far); re-opening (prior size: 0 KB)
+0016.247 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 1.9 s, rate: 13266 KB/s)
+0016.251 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.7713489532471, normalised_time=1.9297480149763, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=81506185)
+0016.310 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip.tmp: 100 files added (on-disk size: 49816.6 KB)
+0016.355 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip.tmp: 200 files added (on-disk size: 49816.6 KB)
+0016.366 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 77.7 MB added on this batch (83.1 MB, 522 files batched, 215 (221) added so far); re-opening (prior size: 49816.6 KB)
+0023.944 (0) A useful amount of data was added after this amount of zip processing: 8.5 s (normalised: 7.9 s, rate: 10043.8 KB/s)
+0023.994 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip.tmp: 300 files added (on-disk size: 134194.2 KB)
+0024.078 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 77.7 MB added on this batch (80.9 MB, 522 files batched, 174 (395) added so far); re-opening (prior size: 134194.2 KB)
+0035.691 (0) A useful amount of data was added after this amount of zip processing: 12.2 s (normalised: 11.7 s, rate: 6777.6 KB/s)
+0035.700 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip.tmp: 400 files added (on-disk size: 215663.1 KB)
+0035.787 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip.tmp: 500 files added (on-disk size: 215663.1 KB)
+0053.701 (0) Created uploads zip (0) - 255682 KB in 41 s (6232.6 KB/s) (SHA1 checksum: 8a37ccce341a5c58f11544f6db6e66a4b5b28b30)
+0053.720 (0) Beginning backup of other directories found in the content directory (index: 0)
+0053.722 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0053.723 (0) Looking for candidates to back up in: /home/prodigofne/www/wp-content
+0053.724 (0) finding files: plugins: skipping: this is the plugins directory
+0053.726 (0) finding files: languages: adding to list (1)
+0053.727 (0) finding files: index.php: adding to list (2)
+0053.728 (0) finding files: wp-cache-config.php: adding to list (3)
+0053.730 (0) finding files: themes: skipping: this is the themes directory
+0053.731 (0) finding files: updraft: skipping: this is the updraft directory
+0053.733 (0) finding files: cache: skipping: excluded by options
+0053.734 (0) finding files: uploads: skipping: this is the uploads directory
+0053.736 (0) finding files: w3tc-config: adding to list (4)
+0053.737 (0) finding files: wflogs: adding to list (5)
+0053.739 (0) finding files: upgrade: skipping: excluded by options
+0053.740 (0) finding files: advanced-cache.php: adding to list (6)
+0053.858 (0) Total entities for the zip file: 5 directories, 144 files (0 skipped as non-modified), 11.1 MB
+0053.941 (0) Zip: backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0056.037 (0) Created others zip (0) - 3343.4 KB in 2.3 s (1458.8 KB/s) (SHA1 checksum: 7cf2f7c8f91d684f05fb8f56eacb82f755c657ac)
+0056.045 (0) Saving backup status to database (elements: 8)
+0056.049 (0) Beginning creation of database dump (WordPress DB)
+0056.054 (0) Testing: /usr/bin/mysqldump
+0056.203 (0) Binary mysqldump: error (code: -1)
+0056.379 (0) Table wor8146_options: Total expected rows (approximate): 1553
+0056.666 (0) Table wor8146_options: Total rows added: 1548 in 0.29 seconds
+0056.671 (0) Table wor8146_options: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_options.table.gz - 64.5 KB)
+0056.681 (0) Table wor8146_users: Total expected rows (approximate): 1
+0056.700 (0) Table wor8146_users: Total rows added: 1 in 0.02 seconds
+0056.702 (0) Table wor8146_users: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_users.table.gz - 0.5 KB)
+0056.713 (0) Table wor8146_usermeta: Total expected rows (approximate): 31
+0056.731 (0) Table wor8146_usermeta: Total rows added: 31 in 0.02 seconds
+0056.733 (0) Table wor8146_usermeta: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_usermeta.table.gz - 1.5 KB)
+0056.740 (0) Table wor8146_commentmeta: Total expected rows (approximate): 0
+0056.811 (0) Table wor8146_commentmeta: Total rows added: 0 in 0.07 seconds
+0056.813 (0) Table wor8146_commentmeta: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_commentmeta.table.gz - 0.3 KB)
+0056.822 (0) Table wor8146_comments: Total expected rows (approximate): 0
+0056.836 (0) Table wor8146_comments: Total rows added: 0 in 0.01 seconds
+0056.840 (0) Table wor8146_comments: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_comments.table.gz - 0.5 KB)
+0056.856 (0) Table wor8146_links: Total expected rows (approximate): 0
+0056.933 (0) Table wor8146_links: Total rows added: 0 in 0.07 seconds
+0056.935 (0) Table wor8146_links: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_links.table.gz - 0.4 KB)
+0056.948 (0) Table wor8146_postmeta: Total expected rows (approximate): 852
+0057.031 (0) Table wor8146_postmeta: Total rows added: 852 in 0.08 seconds
+0057.035 (0) Table wor8146_postmeta: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_postmeta.table.gz - 31.6 KB)
+0057.044 (0) Table wor8146_posts: Total expected rows (approximate): 542
+0057.148 (0) Table wor8146_posts: Total rows added: 542 in 0.10 seconds
+0057.151 (0) Table wor8146_posts: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_posts.table.gz - 66.7 KB)
+0057.160 (0) Table wor8146_term_relationships: Total expected rows (approximate): 51
+0057.205 (0) Table wor8146_term_relationships: Total rows added: 51 in 0.04 seconds
+0057.207 (0) Table wor8146_term_relationships: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_term_relationships.table.gz - 0.5 KB)
+0057.216 (0) Table wor8146_term_taxonomy: Total expected rows (approximate): 3
+0057.257 (0) Table wor8146_term_taxonomy: Total rows added: 3 in 0.04 seconds
+0057.259 (0) Table wor8146_term_taxonomy: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_term_taxonomy.table.gz - 0.4 KB)
+0057.274 (0) Table wor8146_termmeta: Total expected rows (approximate): 0
+0057.364 (0) Table wor8146_termmeta: Total rows added: 0 in 0.09 seconds
+0057.367 (0) Table wor8146_termmeta: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_termmeta.table.gz - 0.3 KB)
+0057.376 (0) Table wor8146_terms: Total expected rows (approximate): 3
+0057.423 (0) Table wor8146_terms: Total rows added: 3 in 0.05 seconds
+0057.428 (0) Table wor8146_terms: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_terms.table.gz - 0.4 KB)
+0057.452 (0) Table wor8146_wfBadLeechers: Total expected rows (approximate): 0
+0057.537 (0) Table wor8146_wfBadLeechers: Total rows added: 0 in 0.08 seconds
+0057.540 (0) Table wor8146_wfBadLeechers: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBadLeechers.table.gz - 0.3 KB)
+0057.552 (0) Table wor8146_wfBlockedIPLog: Total expected rows (approximate): 74
+0057.637 (0) Table wor8146_wfBlockedIPLog: Total rows added: 74 in 0.08 seconds
+0057.639 (0) Table wor8146_wfBlockedIPLog: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlockedIPLog.table.gz - 1 KB)
+0057.649 (0) Table wor8146_wfBlocks: Total expected rows (approximate): 0
+0057.682 (0) Table wor8146_wfBlocks: Total rows added: 0 in 0.03 seconds
+0057.684 (0) Table wor8146_wfBlocks: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlocks.table.gz - 0.4 KB)
+0057.694 (0) Table wor8146_wfBlocksAdv: Total expected rows (approximate): 0
+0057.729 (0) Table wor8146_wfBlocksAdv: Total rows added: 0 in 0.03 seconds
+0057.731 (0) Table wor8146_wfBlocksAdv: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlocksAdv.table.gz - 0.3 KB)
+0057.741 (0) Table wor8146_wfConfig: Total expected rows (approximate): 157
+0057.804 (0) Table wor8146_wfConfig: Total rows added: 157 in 0.06 seconds
+0057.806 (0) Table wor8146_wfConfig: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfConfig.table.gz - 3.6 KB)
+0057.815 (0) Table wor8146_wfCrawlers: Total expected rows (approximate): 13
+0057.857 (0) Table wor8146_wfCrawlers: Total rows added: 13 in 0.04 seconds
+0057.860 (0) Table wor8146_wfCrawlers: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfCrawlers.table.gz - 0.6 KB)
+0057.871 (0) Table wor8146_wfFileMods: Total expected rows (approximate): 4652
+0058.085 (0) Table wor8146_wfFileMods: Total rows added: 4652 in 0.21 seconds
+0058.090 (0) Table wor8146_wfFileMods: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfFileMods.table.gz - 203.2 KB)
+0058.102 (0) Table wor8146_wfHits: Total expected rows (approximate): 2176
+0058.232 (0) Table wor8146_wfHits: Total rows added: 2176 in 0.13 seconds
+0058.235 (0) Table wor8146_wfHits: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfHits.table.gz - 57.1 KB)
+0058.248 (0) Table wor8146_wfHoover: Total expected rows (approximate): 0
+0058.308 (0) Table wor8146_wfHoover: Total rows added: 0 in 0.06 seconds
+0058.310 (0) Table wor8146_wfHoover: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfHoover.table.gz - 0.3 KB)
+0058.331 (0) Table wor8146_wfIssues: Total expected rows (approximate): 15
+0058.364 (0) Table wor8146_wfIssues: Total rows added: 15 in 0.03 seconds
+0058.366 (0) Table wor8146_wfIssues: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfIssues.table.gz - 4.2 KB)
+0058.379 (0) Table wor8146_wfKnownFileList: Total expected rows (approximate): 4652
+0058.467 (0) Table wor8146_wfKnownFileList: Total rows added: 4652 in 0.08 seconds
+0058.470 (0) Table wor8146_wfKnownFileList: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfKnownFileList.table.gz - 44.3 KB)
+0058.479 (0) Table wor8146_wfLeechers: Total expected rows (approximate): 66
+0058.506 (0) Table wor8146_wfLeechers: Total rows added: 66 in 0.02 seconds
+0058.508 (0) Table wor8146_wfLeechers: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLeechers.table.gz - 0.9 KB)
+0058.517 (0) Table wor8146_wfLockedOut: Total expected rows (approximate): 0
+0058.550 (0) Table wor8146_wfLockedOut: Total rows added: 0 in 0.03 seconds
+0058.552 (0) Table wor8146_wfLockedOut: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLockedOut.table.gz - 0.3 KB)
+0058.562 (0) Table wor8146_wfLocs: Total expected rows (approximate): 0
+0058.603 (0) Table wor8146_wfLocs: Total rows added: 0 in 0.04 seconds
+0058.605 (0) Table wor8146_wfLocs: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLocs.table.gz - 0.4 KB)
+0058.615 (0) Table wor8146_wfLogins: Total expected rows (approximate): 102
+0058.661 (0) Table wor8146_wfLogins: Total rows added: 102 in 0.04 seconds
+0058.663 (0) Table wor8146_wfLogins: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLogins.table.gz - 2.7 KB)
+0058.676 (0) Table wor8146_wfNet404s: Total expected rows (approximate): 0
+0058.716 (0) Table wor8146_wfNet404s: Total rows added: 0 in 0.04 seconds
+0058.718 (0) Table wor8146_wfNet404s: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfNet404s.table.gz - 0.3 KB)
+0058.729 (0) Table wor8146_wfReverseCache: Total expected rows (approximate): 3
+0058.769 (0) Table wor8146_wfReverseCache: Total rows added: 3 in 0.04 seconds
+0058.771 (0) Table wor8146_wfReverseCache: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfReverseCache.table.gz - 0.4 KB)
+0058.781 (0) Table wor8146_wfSNIPCache: Total expected rows (approximate): 0
+0058.848 (0) Table wor8146_wfSNIPCache: Total rows added: 0 in 0.07 seconds
+0058.850 (0) Table wor8146_wfSNIPCache: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfSNIPCache.table.gz - 0.4 KB)
+0058.859 (0) Table wor8146_wfScanners: Total expected rows (approximate): 9
+0058.906 (0) Table wor8146_wfScanners: Total rows added: 9 in 0.04 seconds
+0058.908 (0) Table wor8146_wfScanners: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfScanners.table.gz - 0.5 KB)
+0058.921 (0) Table wor8146_wfStatus: Total expected rows (approximate): 1218
+0059.021 (0) Table wor8146_wfStatus: Total rows added: 1218 in 0.10 seconds
+0059.024 (0) Table wor8146_wfStatus: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfStatus.table.gz - 18.3 KB)
+0059.031 (0) Table wor8146_wfThrottleLog: Total expected rows (approximate): 0
+0059.069 (0) Table wor8146_wfThrottleLog: Total rows added: 0 in 0.04 seconds
+0059.071 (0) Table wor8146_wfThrottleLog: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfThrottleLog.table.gz - 0.3 KB)
+0059.079 (0) Table wor8146_wfVulnScanners: Total expected rows (approximate): 0
+0059.109 (0) Table wor8146_wfVulnScanners: Total rows added: 0 in 0.03 seconds
+0059.111 (0) Table wor8146_wfVulnScanners: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfVulnScanners.table.gz - 0.3 KB)
+0059.123 (0) Table wor8146_wpgmza: Total expected rows (approximate): 1
+0059.152 (0) Table wor8146_wpgmza: Total rows added: 1 in 0.03 seconds
+0059.154 (0) Table wor8146_wpgmza: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza.table.gz - 0.5 KB)
+0059.178 (0) Table wor8146_wpgmza_categories: Total expected rows (approximate): 0
+0059.215 (0) Table wor8146_wpgmza_categories: Total rows added: 0 in 0.04 seconds
+0059.218 (0) Table wor8146_wpgmza_categories: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_categories.table.gz - 0.3 KB)
+0059.227 (0) Table wor8146_wpgmza_category_maps: Total expected rows (approximate): 0
+0059.268 (0) Table wor8146_wpgmza_category_maps: Total rows added: 0 in 0.04 seconds
+0059.270 (0) Table wor8146_wpgmza_category_maps: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_category_maps.table.gz - 0.3 KB)
+0059.284 (0) Table wor8146_wpgmza_maps: Total expected rows (approximate): 1
+0059.311 (0) Table wor8146_wpgmza_maps: Total rows added: 1 in 0.03 seconds
+0059.313 (0) Table wor8146_wpgmza_maps: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_maps.table.gz - 0.8 KB)
+0059.325 (0) Table wor8146_wpgmza_polygon: Total expected rows (approximate): 0
+0059.366 (0) Table wor8146_wpgmza_polygon: Total rows added: 0 in 0.04 seconds
+0059.368 (0) Table wor8146_wpgmza_polygon: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_polygon.table.gz - 0.4 KB)
+0059.380 (0) Table wor8146_wpgmza_polylines: Total expected rows (approximate): 0
+0059.399 (0) Table wor8146_wpgmza_polylines: Total rows added: 0 in 0.02 seconds
+0059.401 (0) Table wor8146_wpgmza_polylines: finishing file (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_polylines.table.gz - 0.3 KB)
+0059.408 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_options.table.gz (1/40): adding to final database dump
+0059.429 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_users.table.gz (2/40): adding to final database dump
+0059.432 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_usermeta.table.gz (3/40): adding to final database dump
+0059.434 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_commentmeta.table.gz (4/40): adding to final database dump
+0059.436 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_comments.table.gz (5/40): adding to final database dump
+0059.439 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_links.table.gz (6/40): adding to final database dump
+0059.441 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_postmeta.table.gz (7/40): adding to final database dump
+0059.454 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_posts.table.gz (8/40): adding to final database dump
+0059.477 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_term_relationships.table.gz (9/40): adding to final database dump
+0059.479 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_term_taxonomy.table.gz (10/40): adding to final database dump
+0059.482 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_termmeta.table.gz (11/40): adding to final database dump
+0059.484 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_terms.table.gz (12/40): adding to final database dump
+0059.486 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBadLeechers.table.gz (13/40): adding to final database dump
+0059.488 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlockedIPLog.table.gz (14/40): adding to final database dump
+0059.491 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlocks.table.gz (15/40): adding to final database dump
+0059.493 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfBlocksAdv.table.gz (16/40): adding to final database dump
+0059.496 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfConfig.table.gz (17/40): adding to final database dump
+0059.500 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfCrawlers.table.gz (18/40): adding to final database dump
+0059.502 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfFileMods.table.gz (19/40): adding to final database dump
+0059.545 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfHits.table.gz (20/40): adding to final database dump
+0059.569 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfHoover.table.gz (21/40): adding to final database dump
+0059.572 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfIssues.table.gz (22/40): adding to final database dump
+0059.577 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfKnownFileList.table.gz (23/40): adding to final database dump
+0059.608 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLeechers.table.gz (24/40): adding to final database dump
+0059.611 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLockedOut.table.gz (25/40): adding to final database dump
+0059.613 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLocs.table.gz (26/40): adding to final database dump
+0059.615 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfLogins.table.gz (27/40): adding to final database dump
+0059.619 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfNet404s.table.gz (28/40): adding to final database dump
+0059.622 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfReverseCache.table.gz (29/40): adding to final database dump
+0059.624 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfSNIPCache.table.gz (30/40): adding to final database dump
+0059.626 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfScanners.table.gz (31/40): adding to final database dump
+0059.629 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfStatus.table.gz (32/40): adding to final database dump
+0059.640 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfThrottleLog.table.gz (33/40): adding to final database dump
+0059.643 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wfVulnScanners.table.gz (34/40): adding to final database dump
+0059.645 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza.table.gz (35/40): adding to final database dump
+0059.647 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_categories.table.gz (36/40): adding to final database dump
+0059.650 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_category_maps.table.gz (37/40): adding to final database dump
+0059.653 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_maps.table.gz (38/40): adding to final database dump
+0059.656 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_polygon.table.gz (39/40): adding to final database dump
+0059.658 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db-table-wor8146_wpgmza_polylines.table.gz (40/40): adding to final database dump
+0059.671 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz: finished writing out complete database file (480 KB)
+0059.704 (0) Total database tables backed up: 40 (backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz, size: 516835, checksum (SHA1): f4e96978ea42afe140230a9f64060e301c3480aa)
+0059.714 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0059.715 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0059.716 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0059.717 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip: others: This file has not yet been successfully uploaded: will queue
+0059.718 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz: db: This file has not yet been successfully uploaded: will queue
+0059.721 (0) Saving backup history. Total backup size: 275.5 MB
+0059.725 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0059.731 (0) Cloud backup selection (1/1): googledrive (last)
+0059.733 (0) Beginning dispatch of backup to remote (googledrive)
+0059.739 (0) Google Drive: requesting access token: client_id=415475194129-363nnt03hpk8of6s5794td2u5s84lac7.apps.googleusercontent.com
+0059.902 (0) Google Drive: successfully obtained access token
+0061.056 (0) Google Drive quota usage: used=9716.1 MB, total=15360 MB, available=5643.9 MB
+0061.058 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip: Attempting to upload to Google Drive (into folder id: 0Bz-kSsUopg39WklfUGFBMGNoWk0)
+0061.472 (0) Googledrive chunked upload: 5.4 % uploaded (1048576)
+0061.690 (0) Googledrive chunked upload: 10.7 % uploaded (2097152)
+0061.988 (0) Googledrive chunked upload: 16.1 % uploaded (3145728)
+0062.159 (0) Googledrive chunked upload: 21.4 % uploaded (4194304)
+0062.324 (0) Googledrive chunked upload: 26.8 % uploaded (5242880)
+0062.584 (0) Googledrive chunked upload: 32.2 % uploaded (6291456)
+0062.827 (0) Googledrive chunked upload: 37.5 % uploaded (7340032)
+0063.047 (0) Googledrive chunked upload: 42.9 % uploaded (8388608)
+0063.224 (0) Googledrive chunked upload: 48.2 % uploaded (9437184)
+0063.412 (0) Googledrive chunked upload: 53.6 % uploaded (10485760)
+0063.641 (0) Googledrive chunked upload: 59 % uploaded (11534336)
+0063.811 (0) Googledrive chunked upload: 64.3 % uploaded (12582912)
+0063.983 (0) Googledrive chunked upload: 69.7 % uploaded (13631488)
+0064.174 (0) Googledrive chunked upload: 75 % uploaded (14680064)
+0064.333 (0) Googledrive chunked upload: 80.4 % uploaded (15728640)
+0064.517 (0) Googledrive chunked upload: 85.8 % uploaded (16777216)
+0064.680 (0) Googledrive chunked upload: 91.1 % uploaded (17825792)
+0064.859 (0) Googledrive chunked upload: 96.5 % uploaded (18874368)
+0066.380 (0) Googledrive chunked upload: 100 % uploaded (18874368)
+0066.389 (0) OK: Archive backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip uploaded to Google Drive in 5.33 seconds
+0066.392 (0) Recording as successfully uploaded: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip (688fc06315ee82026a71f0ff291444e6)
+0066.402 (0) Deleting local file: backup_2016-11-15-1536_Prodigo_9d7213eaa894-plugins.zip: OK
+0066.734 (0) Google Drive quota usage: used=9753.4 MB, total=15360 MB, available=5606.6 MB
+0066.736 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip: Attempting to upload to Google Drive (into folder id: 0Bz-kSsUopg39WklfUGFBMGNoWk0)
+0067.088 (0) Googledrive chunked upload: 29.8 % uploaded (1048576)
+0067.238 (0) Googledrive chunked upload: 59.6 % uploaded (2097152)
+0067.407 (0) Googledrive chunked upload: 89.4 % uploaded (3145728)
+0069.288 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0069.296 (0) OK: Archive backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip uploaded to Google Drive in 2.56 seconds
+0069.299 (0) Recording as successfully uploaded: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip (feffe117468b1e32a700de04f9e409bd)
+0069.306 (0) Deleting local file: backup_2016-11-15-1536_Prodigo_9d7213eaa894-themes.zip: OK
+0069.828 (0) Google Drive quota usage: used=9760.1 MB, total=15360 MB, available=5599.9 MB
+0069.829 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip: Attempting to upload to Google Drive (into folder id: 0Bz-kSsUopg39WklfUGFBMGNoWk0)
+0070.288 (0) Googledrive chunked upload: 0.4 % uploaded (1048576)
+0070.420 (0) Googledrive chunked upload: 0.8 % uploaded (2097152)
+0070.539 (0) Googledrive chunked upload: 1.2 % uploaded (3145728)
+0070.678 (0) Googledrive chunked upload: 1.6 % uploaded (4194304)
+0070.867 (0) Googledrive chunked upload: 2 % uploaded (5242880)
+0070.992 (0) Googledrive chunked upload: 2.4 % uploaded (6291456)
+0071.119 (0) Googledrive chunked upload: 2.8 % uploaded (7340032)
+0071.249 (0) Googledrive chunked upload: 3.2 % uploaded (8388608)
+0071.371 (0) Googledrive chunked upload: 3.6 % uploaded (9437184)
+0071.574 (0) Googledrive chunked upload: 4 % uploaded (10485760)
+0071.728 (0) Googledrive chunked upload: 4.4 % uploaded (11534336)
+0071.859 (0) Googledrive chunked upload: 4.8 % uploaded (12582912)
+0071.991 (0) Googledrive chunked upload: 5.2 % uploaded (13631488)
+0072.123 (0) Googledrive chunked upload: 5.6 % uploaded (14680064)
+0072.241 (0) Googledrive chunked upload: 6 % uploaded (15728640)
+0072.374 (0) Googledrive chunked upload: 6.4 % uploaded (16777216)
+0072.530 (0) Googledrive chunked upload: 6.8 % uploaded (17825792)
+0072.663 (0) Googledrive chunked upload: 7.2 % uploaded (18874368)
+0072.786 (0) Googledrive chunked upload: 7.6 % uploaded (19922944)
+0072.920 (0) Googledrive chunked upload: 8 % uploaded (20971520)
+0073.048 (0) Googledrive chunked upload: 8.4 % uploaded (22020096)
+0073.190 (0) Googledrive chunked upload: 8.8 % uploaded (23068672)
+0073.434 (0) Googledrive chunked upload: 9.2 % uploaded (24117248)
+0073.593 (0) Googledrive chunked upload: 9.6 % uploaded (25165824)
+0073.823 (0) Googledrive chunked upload: 10 % uploaded (26214400)
+0073.972 (0) Googledrive chunked upload: 10.4 % uploaded (27262976)
+0074.126 (0) Googledrive chunked upload: 10.8 % uploaded (28311552)
+0074.311 (0) Googledrive chunked upload: 11.2 % uploaded (29360128)
+0074.530 (0) Googledrive chunked upload: 11.6 % uploaded (30408704)
+0074.733 (0) Googledrive chunked upload: 12 % uploaded (31457280)
+0075.319 (0) Googledrive chunked upload: 12.4 % uploaded (32505856)
+0075.536 (0) Googledrive chunked upload: 12.8 % uploaded (33554432)
+0075.697 (0) Googledrive chunked upload: 13.2 % uploaded (34603008)
+0075.863 (0) Googledrive chunked upload: 13.6 % uploaded (35651584)
+0076.066 (0) Googledrive chunked upload: 14 % uploaded (36700160)
+0076.237 (0) Googledrive chunked upload: 14.4 % uploaded (37748736)
+0076.384 (0) Googledrive chunked upload: 14.8 % uploaded (38797312)
+0076.585 (0) Googledrive chunked upload: 15.2 % uploaded (39845888)
+0076.776 (0) Googledrive chunked upload: 15.6 % uploaded (40894464)
+0076.960 (0) Googledrive chunked upload: 16 % uploaded (41943040)
+0077.135 (0) Googledrive chunked upload: 16.4 % uploaded (42991616)
+0077.306 (0) Googledrive chunked upload: 16.8 % uploaded (44040192)
+0077.480 (0) Googledrive chunked upload: 17.2 % uploaded (45088768)
+0077.642 (0) Googledrive chunked upload: 17.6 % uploaded (46137344)
+0077.812 (0) Googledrive chunked upload: 18 % uploaded (47185920)
+0078.009 (0) Googledrive chunked upload: 18.4 % uploaded (48234496)
+0078.179 (0) Googledrive chunked upload: 18.8 % uploaded (49283072)
+0078.342 (0) Googledrive chunked upload: 19.2 % uploaded (50331648)
+0078.504 (0) Googledrive chunked upload: 19.6 % uploaded (51380224)
+0078.659 (0) Googledrive chunked upload: 20 % uploaded (52428800)
+0078.872 (0) Googledrive chunked upload: 20.4 % uploaded (53477376)
+0079.053 (0) Googledrive chunked upload: 20.8 % uploaded (54525952)
+0079.238 (0) Googledrive chunked upload: 21.2 % uploaded (55574528)
+0079.409 (0) Googledrive chunked upload: 21.6 % uploaded (56623104)
+0079.574 (0) Googledrive chunked upload: 22 % uploaded (57671680)
+0079.713 (0) Googledrive chunked upload: 22.4 % uploaded (58720256)
+0079.890 (0) Googledrive chunked upload: 22.8 % uploaded (59768832)
+0080.051 (0) Googledrive chunked upload: 23.2 % uploaded (60817408)
+0080.216 (0) Googledrive chunked upload: 23.6 % uploaded (61865984)
+0080.492 (0) Googledrive chunked upload: 24 % uploaded (62914560)
+0080.632 (0) Googledrive chunked upload: 24.4 % uploaded (63963136)
+0080.863 (0) Googledrive chunked upload: 24.8 % uploaded (65011712)
+0081.028 (0) Googledrive chunked upload: 25.2 % uploaded (66060288)
+0081.193 (0) Googledrive chunked upload: 25.6 % uploaded (67108864)
+0081.352 (0) Googledrive chunked upload: 26 % uploaded (68157440)
+0081.505 (0) Googledrive chunked upload: 26.4 % uploaded (69206016)
+0081.656 (0) Googledrive chunked upload: 26.8 % uploaded (70254592)
+0081.926 (0) Googledrive chunked upload: 27.2 % uploaded (71303168)
+0082.053 (0) Googledrive chunked upload: 27.6 % uploaded (72351744)
+0082.218 (0) Googledrive chunked upload: 28 % uploaded (73400320)
+0082.376 (0) Googledrive chunked upload: 28.4 % uploaded (74448896)
+0082.572 (0) Googledrive chunked upload: 28.8 % uploaded (75497472)
+0082.973 (0) Googledrive chunked upload: 29.2 % uploaded (76546048)
+0083.129 (0) Googledrive chunked upload: 29.6 % uploaded (77594624)
+0083.385 (0) Googledrive chunked upload: 30 % uploaded (78643200)
+0083.557 (0) Googledrive chunked upload: 30.4 % uploaded (79691776)
+0083.698 (0) Googledrive chunked upload: 30.8 % uploaded (80740352)
+0083.862 (0) Googledrive chunked upload: 31.2 % uploaded (81788928)
+0084.009 (0) Googledrive chunked upload: 31.6 % uploaded (82837504)
+0084.183 (0) Googledrive chunked upload: 32 % uploaded (83886080)
+0084.350 (0) Googledrive chunked upload: 32.4 % uploaded (84934656)
+0084.508 (0) Googledrive chunked upload: 32.8 % uploaded (85983232)
+0084.686 (0) Googledrive chunked upload: 33.2 % uploaded (87031808)
+0084.865 (0) Googledrive chunked upload: 33.6 % uploaded (88080384)
+0085.024 (0) Googledrive chunked upload: 34 % uploaded (89128960)
+0085.174 (0) Googledrive chunked upload: 34.4 % uploaded (90177536)
+0085.341 (0) Googledrive chunked upload: 34.8 % uploaded (91226112)
+0085.550 (0) Googledrive chunked upload: 35.2 % uploaded (92274688)
+0085.767 (0) Googledrive chunked upload: 35.6 % uploaded (93323264)
+0085.930 (0) Googledrive chunked upload: 36 % uploaded (94371840)
+0086.089 (0) Googledrive chunked upload: 36.4 % uploaded (95420416)
+0086.266 (0) Googledrive chunked upload: 36.8 % uploaded (96468992)
+0086.444 (0) Googledrive chunked upload: 37.2 % uploaded (97517568)
+0086.619 (0) Googledrive chunked upload: 37.6 % uploaded (98566144)
+0086.772 (0) Googledrive chunked upload: 38 % uploaded (99614720)
+0086.941 (0) Googledrive chunked upload: 38.4 % uploaded (100663296)
+0087.093 (0) Googledrive chunked upload: 38.8 % uploaded (101711872)
+0087.266 (0) Googledrive chunked upload: 39.2 % uploaded (102760448)
+0087.425 (0) Googledrive chunked upload: 39.6 % uploaded (103809024)
+0087.584 (0) Googledrive chunked upload: 40 % uploaded (104857600)
+0087.788 (0) Googledrive chunked upload: 40.5 % uploaded (105906176)
+0087.987 (0) Googledrive chunked upload: 40.9 % uploaded (106954752)
+0088.133 (0) Googledrive chunked upload: 41.3 % uploaded (108003328)
+0088.323 (0) Googledrive chunked upload: 41.7 % uploaded (109051904)
+0088.468 (0) Googledrive chunked upload: 42.1 % uploaded (110100480)
+0088.641 (0) Googledrive chunked upload: 42.5 % uploaded (111149056)
+0088.956 (0) Googledrive chunked upload: 42.9 % uploaded (112197632)
+0089.122 (0) Googledrive chunked upload: 43.3 % uploaded (113246208)
+0089.309 (0) Googledrive chunked upload: 43.7 % uploaded (114294784)
+0089.462 (0) Googledrive chunked upload: 44.1 % uploaded (115343360)
+0089.668 (0) Googledrive chunked upload: 44.5 % uploaded (116391936)
+0089.834 (0) Googledrive chunked upload: 44.9 % uploaded (117440512)
+0089.998 (0) Googledrive chunked upload: 45.3 % uploaded (118489088)
+0090.147 (0) Googledrive chunked upload: 45.7 % uploaded (119537664)
+0090.311 (0) Googledrive chunked upload: 46.1 % uploaded (120586240)
+0090.536 (0) Googledrive chunked upload: 46.5 % uploaded (121634816)
+0090.694 (0) Googledrive chunked upload: 46.9 % uploaded (122683392)
+0091.016 (0) Googledrive chunked upload: 47.3 % uploaded (123731968)
+0091.182 (0) Googledrive chunked upload: 47.7 % uploaded (124780544)
+0091.349 (0) Googledrive chunked upload: 48.1 % uploaded (125829120)
+0091.502 (0) Googledrive chunked upload: 48.5 % uploaded (126877696)
+0091.704 (0) Googledrive chunked upload: 48.9 % uploaded (127926272)
+0091.843 (0) Googledrive chunked upload: 49.3 % uploaded (128974848)
+0092.036 (0) Googledrive chunked upload: 49.7 % uploaded (130023424)
+0092.203 (0) Googledrive chunked upload: 50.1 % uploaded (131072000)
+0092.374 (0) Googledrive chunked upload: 50.5 % uploaded (132120576)
+0092.561 (0) Googledrive chunked upload: 50.9 % uploaded (133169152)
+0092.853 (0) Googledrive chunked upload: 51.3 % uploaded (134217728)
+0093.014 (0) Googledrive chunked upload: 51.7 % uploaded (135266304)
+0093.171 (0) Googledrive chunked upload: 52.1 % uploaded (136314880)
+0093.315 (0) Googledrive chunked upload: 52.5 % uploaded (137363456)
+0093.491 (0) Googledrive chunked upload: 52.9 % uploaded (138412032)
+0093.972 (0) Googledrive chunked upload: 53.3 % uploaded (139460608)
+0094.141 (0) Googledrive chunked upload: 53.7 % uploaded (140509184)
+0094.327 (0) Googledrive chunked upload: 54.1 % uploaded (141557760)
+0094.525 (0) Googledrive chunked upload: 54.5 % uploaded (142606336)
+0094.665 (0) Googledrive chunked upload: 54.9 % uploaded (143654912)
+0094.819 (0) Googledrive chunked upload: 55.3 % uploaded (144703488)
+0094.990 (0) Googledrive chunked upload: 55.7 % uploaded (145752064)
+0095.157 (0) Googledrive chunked upload: 56.1 % uploaded (146800640)
+0095.295 (0) Googledrive chunked upload: 56.5 % uploaded (147849216)
+0095.490 (0) Googledrive chunked upload: 56.9 % uploaded (148897792)
+0095.643 (0) Googledrive chunked upload: 57.3 % uploaded (149946368)
+0095.790 (0) Googledrive chunked upload: 57.7 % uploaded (150994944)
+0096.006 (0) Googledrive chunked upload: 58.1 % uploaded (152043520)
+0096.186 (0) Googledrive chunked upload: 58.5 % uploaded (153092096)
+0096.364 (0) Googledrive chunked upload: 58.9 % uploaded (154140672)
+0096.528 (0) Googledrive chunked upload: 59.3 % uploaded (155189248)
+0096.696 (0) Googledrive chunked upload: 59.7 % uploaded (156237824)
+0096.981 (0) Googledrive chunked upload: 60.1 % uploaded (157286400)
+0097.139 (0) Googledrive chunked upload: 60.5 % uploaded (158334976)
+0097.296 (0) Googledrive chunked upload: 60.9 % uploaded (159383552)
+0097.435 (0) Googledrive chunked upload: 61.3 % uploaded (160432128)
+0097.578 (0) Googledrive chunked upload: 61.7 % uploaded (161480704)
+0097.792 (0) Googledrive chunked upload: 62.1 % uploaded (162529280)
+0097.983 (0) Googledrive chunked upload: 62.5 % uploaded (163577856)
+0098.162 (0) Googledrive chunked upload: 62.9 % uploaded (164626432)
+0098.338 (0) Googledrive chunked upload: 63.3 % uploaded (165675008)
+0098.495 (0) Googledrive chunked upload: 63.7 % uploaded (166723584)
+0098.638 (0) Googledrive chunked upload: 64.1 % uploaded (167772160)
+0098.813 (0) Googledrive chunked upload: 64.5 % uploaded (168820736)
+0098.976 (0) Googledrive chunked upload: 64.9 % uploaded (169869312)
+0099.124 (0) Googledrive chunked upload: 65.3 % uploaded (170917888)
+0099.294 (0) Googledrive chunked upload: 65.7 % uploaded (171966464)
+0099.490 (0) Googledrive chunked upload: 66.1 % uploaded (173015040)
+0099.686 (0) Googledrive chunked upload: 66.5 % uploaded (174063616)
+0099.836 (0) Googledrive chunked upload: 66.9 % uploaded (175112192)
+0100.025 (0) Googledrive chunked upload: 67.3 % uploaded (176160768)
+0100.166 (0) Googledrive chunked upload: 67.7 % uploaded (177209344)
+0100.343 (0) Googledrive chunked upload: 68.1 % uploaded (178257920)
+0100.654 (0) Googledrive chunked upload: 68.5 % uploaded (179306496)
+0100.825 (0) Googledrive chunked upload: 68.9 % uploaded (180355072)
+0100.976 (0) Googledrive chunked upload: 69.3 % uploaded (181403648)
+0101.149 (0) Googledrive chunked upload: 69.7 % uploaded (182452224)
+0101.329 (0) Googledrive chunked upload: 70.1 % uploaded (183500800)
+0101.533 (0) Googledrive chunked upload: 70.5 % uploaded (184549376)
+0101.695 (0) Googledrive chunked upload: 70.9 % uploaded (185597952)
+0101.851 (0) Googledrive chunked upload: 71.3 % uploaded (186646528)
+0102.081 (0) Googledrive chunked upload: 71.7 % uploaded (187695104)
+0102.251 (0) Googledrive chunked upload: 72.1 % uploaded (188743680)
+0102.441 (0) Googledrive chunked upload: 72.5 % uploaded (189792256)
+0102.606 (0) Googledrive chunked upload: 72.9 % uploaded (190840832)
+0102.779 (0) Googledrive chunked upload: 73.3 % uploaded (191889408)
+0102.968 (0) Googledrive chunked upload: 73.7 % uploaded (192937984)
+0103.175 (0) Googledrive chunked upload: 74.1 % uploaded (193986560)
+0103.344 (0) Googledrive chunked upload: 74.5 % uploaded (195035136)
+0103.533 (0) Googledrive chunked upload: 74.9 % uploaded (196083712)
+0103.714 (0) Googledrive chunked upload: 75.3 % uploaded (197132288)
+0103.929 (0) Googledrive chunked upload: 75.7 % uploaded (198180864)
+0104.130 (0) Googledrive chunked upload: 76.1 % uploaded (199229440)
+0104.287 (0) Googledrive chunked upload: 76.5 % uploaded (200278016)
+0104.448 (0) Googledrive chunked upload: 76.9 % uploaded (201326592)
+0104.600 (0) Googledrive chunked upload: 77.3 % uploaded (202375168)
+0104.782 (0) Googledrive chunked upload: 77.7 % uploaded (203423744)
+0104.959 (0) Googledrive chunked upload: 78.1 % uploaded (204472320)
+0105.111 (0) Googledrive chunked upload: 78.5 % uploaded (205520896)
+0105.254 (0) Googledrive chunked upload: 78.9 % uploaded (206569472)
+0105.438 (0) Googledrive chunked upload: 79.3 % uploaded (207618048)
+0105.596 (0) Googledrive chunked upload: 79.7 % uploaded (208666624)
+0105.772 (0) Googledrive chunked upload: 80.1 % uploaded (209715200)
+0105.935 (0) Googledrive chunked upload: 80.5 % uploaded (210763776)
+0106.087 (0) Googledrive chunked upload: 80.9 % uploaded (211812352)
+0106.244 (0) Googledrive chunked upload: 81.3 % uploaded (212860928)
+0106.415 (0) Googledrive chunked upload: 81.7 % uploaded (213909504)
+0106.550 (0) Googledrive chunked upload: 82.1 % uploaded (214958080)
+0106.712 (0) Googledrive chunked upload: 82.5 % uploaded (216006656)
+0106.915 (0) Googledrive chunked upload: 82.9 % uploaded (217055232)
+0107.110 (0) Googledrive chunked upload: 83.3 % uploaded (218103808)
+0107.269 (0) Googledrive chunked upload: 83.7 % uploaded (219152384)
+0107.438 (0) Googledrive chunked upload: 84.1 % uploaded (220200960)
+0107.798 (0) Googledrive chunked upload: 84.5 % uploaded (221249536)
+0107.976 (0) Googledrive chunked upload: 84.9 % uploaded (222298112)
+0108.134 (0) Googledrive chunked upload: 85.3 % uploaded (223346688)
+0108.344 (0) Googledrive chunked upload: 85.7 % uploaded (224395264)
+0108.545 (0) Googledrive chunked upload: 86.1 % uploaded (225443840)
+0108.716 (0) Googledrive chunked upload: 86.5 % uploaded (226492416)
+0108.875 (0) Googledrive chunked upload: 86.9 % uploaded (227540992)
+0109.045 (0) Googledrive chunked upload: 87.3 % uploaded (228589568)
+0109.216 (0) Googledrive chunked upload: 87.7 % uploaded (229638144)
+0109.371 (0) Googledrive chunked upload: 88.1 % uploaded (230686720)
+0109.563 (0) Googledrive chunked upload: 88.5 % uploaded (231735296)
+0109.726 (0) Googledrive chunked upload: 88.9 % uploaded (232783872)
+0109.905 (0) Googledrive chunked upload: 89.3 % uploaded (233832448)
+0110.077 (0) Googledrive chunked upload: 89.7 % uploaded (234881024)
+0110.214 (0) Googledrive chunked upload: 90.1 % uploaded (235929600)
+0110.403 (0) Googledrive chunked upload: 90.5 % uploaded (236978176)
+0110.567 (0) Googledrive chunked upload: 90.9 % uploaded (238026752)
+0110.717 (0) Googledrive chunked upload: 91.3 % uploaded (239075328)
+0110.855 (0) Googledrive chunked upload: 91.7 % uploaded (240123904)
+0111.031 (0) Googledrive chunked upload: 92.1 % uploaded (241172480)
+0111.189 (0) Googledrive chunked upload: 92.5 % uploaded (242221056)
+0111.348 (0) Googledrive chunked upload: 92.9 % uploaded (243269632)
+0111.517 (0) Googledrive chunked upload: 93.3 % uploaded (244318208)
+0111.695 (0) Googledrive chunked upload: 93.7 % uploaded (245366784)
+0111.867 (0) Googledrive chunked upload: 94.1 % uploaded (246415360)
+0112.048 (0) Googledrive chunked upload: 94.5 % uploaded (247463936)
+0112.196 (0) Googledrive chunked upload: 94.9 % uploaded (248512512)
+0112.343 (0) Googledrive chunked upload: 95.3 % uploaded (249561088)
+0112.502 (0) Googledrive chunked upload: 95.7 % uploaded (250609664)
+0112.676 (0) Googledrive chunked upload: 96.1 % uploaded (251658240)
+0112.854 (0) Googledrive chunked upload: 96.5 % uploaded (252706816)
+0113.029 (0) Googledrive chunked upload: 96.9 % uploaded (253755392)
+0113.270 (0) Googledrive chunked upload: 97.3 % uploaded (254803968)
+0113.440 (0) Googledrive chunked upload: 97.7 % uploaded (255852544)
+0113.599 (0) Googledrive chunked upload: 98.1 % uploaded (256901120)
+0113.775 (0) Googledrive chunked upload: 98.5 % uploaded (257949696)
+0113.947 (0) Googledrive chunked upload: 98.9 % uploaded (258998272)
+0114.112 (0) Googledrive chunked upload: 99.3 % uploaded (260046848)
+0114.279 (0) Googledrive chunked upload: 99.7 % uploaded (261095424)
+0115.196 (0) Googledrive chunked upload: 100 % uploaded (261095424)
+0115.201 (0) OK: Archive backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip uploaded to Google Drive in 45.37 seconds
+0115.206 (0) Recording as successfully uploaded: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip (acd80684ffda193093368e5a884dde14)
+0115.250 (0) Deleting local file: backup_2016-11-15-1536_Prodigo_9d7213eaa894-uploads.zip: OK
+0115.581 (0) Google Drive quota usage: used=10259.5 MB, total=15360 MB, available=5100.5 MB
+0115.582 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip: Attempting to upload to Google Drive (into folder id: 0Bz-kSsUopg39WklfUGFBMGNoWk0)
+0115.936 (0) Googledrive chunked upload: 30.6 % uploaded (1048576)
+0116.117 (0) Googledrive chunked upload: 61.3 % uploaded (2097152)
+0116.267 (0) Googledrive chunked upload: 91.9 % uploaded (3145728)
+0117.374 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0117.379 (0) OK: Archive backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip uploaded to Google Drive in 1.79 seconds
+0117.382 (0) Recording as successfully uploaded: backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip (a0d0461dbb7e57f6127a7ba511975fd4)
+0117.388 (0) Deleting local file: backup_2016-11-15-1536_Prodigo_9d7213eaa894-others.zip: OK
+0117.692 (0) Google Drive quota usage: used=10266 MB, total=15360 MB, available=5094 MB
+0117.693 (0) backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz: Attempting to upload to Google Drive (into folder id: 0Bz-kSsUopg39WklfUGFBMGNoWk0)
+0118.929 (0) Googledrive chunked upload: 100 % uploaded
+0118.934 (0) OK: Archive backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz uploaded to Google Drive in 1.24 seconds
+0118.937 (0) Recording as successfully uploaded: backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz (95a1e758a4d0186e74c528c40ceecd8b)
+0118.944 (0) Deleting local file: backup_2016-11-15-1536_Prodigo_9d7213eaa894-db.gz: OK
+0118.948 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0118.949 (0) Number of backup sets in history: 3; groups (db): 1
+0118.951 (0) Examining (for databases) backup set with group_id=0, nonce=b8281400bcf1, datestamp=1479224206 (Nov 15 2016 15:36:46)
+0118.952 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.953 (0) Examining (for databases) backup set with group_id=0, nonce=befe028cfa17, datestamp=1479136865 (Nov 14 2016 15:21:05)
+0118.954 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.955 (0) Examining (for databases) backup set with group_id=0, nonce=c28cf3545301, datestamp=1479050725 (Nov 13 2016 15:25:25)
+0118.956 (0) 1479050725: db: this set includes a database (backup_2016-11-13-1525_Prodigo_c28cf3545301-db.gz); db count is now 2
+0118.959 (0) 1479050725: db: over retain limit (2); will delete this database
+0118.960 (0) Delete file: backup_2016-11-13-1525_Prodigo_c28cf3545301-db.gz, service=googledrive
+0119.680 (0) backup_2016-11-13-1525_Prodigo_c28cf3545301-db.gz: Deletion failed: file was not found
+0119.684 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0119.687 (0) Number of backup sets in history: 3; groups (files): 1
+0119.691 (0) Examining (for files) backup set with nonce=b8281400bcf1, datestamp=1479224206 (Nov 15 2016 15:36:46)
+0119.693 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0119.694 (0) Examining (for files) backup set with nonce=befe028cfa17, datestamp=1479136865 (Nov 14 2016 15:21:05)
+0119.695 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0119.698 (0) Examining (for files) backup set with nonce=c28cf3545301, datestamp=1479050725 (Nov 13 2016 15:25:25)
+0119.700 (0) plugins: over retain limit (2); will delete this file entity
+0119.703 (0) themes: over retain limit (2); will delete this file entity
+0119.704 (0) uploads: over retain limit (2); will delete this file entity
+0119.705 (0) others: over retain limit (2); will delete this file entity
+0119.707 (0) Delete file: backup_2016-11-13-1525_Prodigo_c28cf3545301-plugins.zip, service=googledrive
+0119.708 (0) Delete file: backup_2016-11-13-1525_Prodigo_c28cf3545301-themes.zip, service=googledrive
+0119.709 (0) Delete file: backup_2016-11-13-1525_Prodigo_c28cf3545301-uploads.zip, service=googledrive
+0119.712 (0) Delete file: backup_2016-11-13-1525_Prodigo_c28cf3545301-others.zip, service=googledrive
+0121.670 (0) backup_2016-11-13-1525_Prodigo_c28cf3545301-others.zip: Deletion successful
+0122.089 (0) backup_2016-11-13-1525_Prodigo_c28cf3545301-uploads.zip: Deletion successful
+0122.652 (0) backup_2016-11-13-1525_Prodigo_c28cf3545301-themes.zip: Deletion successful
+0123.252 (0) backup_2016-11-13-1525_Prodigo_c28cf3545301-plugins.zip: Deletion successful
+0123.256 (0) This backup set is now empty; will remove from history
+0123.258 (0) Deleting log file (log.c28cf3545301.txt)
+0123.260 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0123.265 (0) Resume backup (9d7213eaa894, 0): finish run
+0123.268 (0) Decremented the semaphore (fd) by 1
+0123.270 (0) Semaphore (fd) unlocked
+0123.271 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0123.276 (0) The backup apparently succeeded and is now complete
+0123.277 (0) No email will/can be sent - the user has not configured an email address.
+0123.278 (0) La sauvegarde a manifestement réussie et est maintenant terminée.

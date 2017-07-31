@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Text in echo
+#: index.php:109
+msgid "Continue reading: "
+msgstr ""
+
+#. Text in echo
+#: 404.php:41
+msgid "Most Used Categories"
+msgstr ""
+
+#. Text in echo
+#: 404.php:31
+msgid "Sorry, the page you are looking for cannot be found."
+msgstr ""
+
+#. Text in echo
+#: archive.php:15
+msgid "Archives"
+msgstr ""
+
+#. Text in function
+#: archive.php:15
+msgid "Category Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: content.php:55
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: content.php:55
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: content.php:58
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: content.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: content.php:25
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: content.php:10
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in function
+#: content.php:37
+msgid "Posted in %1$s"
+msgstr ""
+
+#. Text in function
+#: content.php:48
+msgid "Tagged %1$s"
+msgstr ""
+
+#. Text in echo
+#: content-single.php:59
+msgid "ABOUT"
+msgstr ""
+
+#. Text in function
+#: content-single.php:27
+msgid "Posted by <a href=\"%6$s\">%5$s</a>."
+msgstr ""
+
+#. Text in function
+#: content-single.php:27
+msgid "Posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>."
+msgstr ""
+
+#. Text in function
+#: content-single.php:27
+msgid "Posted in %1$s by <a href=\"%6$s\">%5$s</a>."
+msgstr ""
+
+#. Text in function
+#: functions.php:178
+msgid "Reply"
+msgstr ""
+
+#. Text in echo
+#: no-results.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Text in echo
+#: no-results.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: no-results.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Text in function
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:115
+msgid "<strong>Thank you!</strong> Your email was successfully sent."
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "Contact Form Submission from "
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:167
+msgid "Do not enter anything in this field"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:153
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "From: "
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:161
+msgid "Message"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:145
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "Name: $name \\n\\nEmail: $email \\n\\nComments: $comments"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "Reply-To: "
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:142
+msgid "SEND US A MESSAGE"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:169
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:133
+msgid "There was an error submitting the form."
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:105
+msgid "You entered an invalid"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "You entered an invalid email address."
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:98
+msgid "You forgot to enter your"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "You forgot to enter your email address."
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "You forgot to enter your message"
+msgstr ""
+
+#. Text in function
+#: template-contact.php:7
+msgid "You forgot to enter your name."
+msgstr ""
+
+#. Text in echo
+#: template-contact.php:127
+msgid "Your email was successfully sent."
+msgstr ""
+
+#. Text in echo
+#: template-homepage.php:70
+msgid "FROM THE BLOG"
+msgstr ""
+
+#. Text in echo
+#: template-portfolio.php:35
+msgid "Show all"
+msgstr ""

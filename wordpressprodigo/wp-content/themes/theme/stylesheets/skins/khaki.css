@@ -1,0 +1,40 @@
+.colorme {color:#a0a774;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: #a0a774;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#a0a774;}
+.flyout {border-top:2px solid #a0a774;}
+.sectiontitle, .sectiontitlepost {border-left: 4px solid #a0a774;}
+::-moz-selection{background:#a0a774;color:#fff;}
+::selection{background:#a0a774;color:#fff;}
+.ca-menu li:hover .ca-main {color: #a0a774;}
+.topborder { border-top:4px solid #a0a774;}
+ #subheader {background: #a0a774;border-top: 1px solid #a0a774;}
+ #testimonials blockquote cite {color:#a0a774;}
+ a.tagcloud, .tagcloud a {background:#a0a774;}
+ ul.pagination li.current a {background: #a0a774;}
+.saymore {color:#a0a774;}
+dl.tabs dd.active { border-bottom: 3px solid #a0a774;}
+ul.accordion > li.active {border-top: 3px solid #a0a774;}
+.topborderslide {	margin: 0;	padding: 0;	border-top: solid 4px #a0a774;}
+.btn-slide {	background:#a0a774 url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: #a0a774 url(../../images/minus.png) no-repeat;}
+#footer {border-top:#a0a774 4px solid;}
+.sf-shadow ul {border-top:2px solid #a0a774;}
+.panel {border-left:4px solid #a0a774;}
+.pagination-comments .currentpage, #commentform input#submit,.readmore, .submit, div.alert-box.default,.colorbackground ,.pagination .currentpage, .pagination a:hover{background:#a0a774;}
+.back-top a:hover {background:#a0a774 url(../../images/up-arrow.png) no-repeat center center;}
+.bordercomment {border-top: 1px solid #a0a774;}
+.pagination .currentpage, .recentpostsmore {background:#a0a774;}
+.innerp:hover,.innerp:hover,.innerp a:hover,.innergalleryp:hover,.innerpthree:hover,.innerpthree:hover,.innerpthree a:hover,.innerpfour:hover,.innerpfour:hover,.innerpfour a:hover,.innergalleryp:hover{color:#a0a774}
+.pagination-comments .current{background:#a0a774!important;}
+.multi-sidebar .tabs a:hover {color: #a0a774;}
+.multi-sidebar .tabs .ui-tabs-selected a {border-bottom: 2px solid #a0a774;}
+a.projectdetail{background:#a0a774;}
+
+.ui-tabs-active {border-bottom: 2px solid #a0a774;}
+.vuzz-tabs ul.ui-tabs-nav .ui-state-active a {border-bottom: 3px solid #a0a774;}
+.vuzz-pricing-table > div {border-top: #a0a774 3px solid;}
+.vuzz-accordion .vuzz-accordion-trigger.ui-state-active {border-top: 3px solid #a0a774;}
+.vuzz-pricing-table .vuzz-pricing-cost, .vuzz-pricing-table .vuzz-pricing-per {background:#a0a774;}
+
+.ei-title h2{background:#a0a774;}

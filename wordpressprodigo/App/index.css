@@ -1,0 +1,30 @@
+#container { 
+	margin: 0;
+	padding: 0;
+}
+#initialisation_css {
+    position : absolute;
+	top: 10px;
+	left: 15px;
+}
+#supprimer_points_css {
+    position : absolute;
+	top: 10px;
+	left: 110px;
+}
+#info_css {
+    position : absolute;
+	top: 10px;
+	left: 235px;
+}
+
+#distance_css {
+    position : absolute;
+	top: 10px;
+	left: 285px;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
