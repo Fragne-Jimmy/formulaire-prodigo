@@ -1,0 +1,75 @@
+body{
+
+}
+
+header img{
+  width: 13%;
+  display: inline-block;
+}
+
+header h1{
+  display:  inherit;
+  margin-top: -8%;
+}
+
+
+header h5{
+  display: block;
+  width: 35%;
+}
+
+/*généralitées pour les tableaux */
+td{
+    border: 1px solid black;
+    padding-left: 1%;
+}
+/* fin */
+
+.tablo1{
+border-collapse: collapse;
+border: 1px solid black;
+width: 100%;
+}
+
+.tablo1 th{
+  background-color: #33877d;
+}
+
+.tablo2{
+border-collapse: collapse;
+border: 1px solid black;
+width: 100%;
+}
+
+.tablo2 th{
+  background-color: #33877d;
+}
+
+.tablo3{
+border-collapse: collapse;
+border: 1px solid black;
+width: 100%;
+}
+
+.tablo3 th{
+  background-color: #33877d;
+}
+
+.tablo3_1{
+border-collapse: collapse;
+border: 1px solid black;
+width: 40%;
+}
+
+.tablo4{
+border-collapse: collapse;
+border: 1px solid black;
+width: 100%;
+}
+
+footer{
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}

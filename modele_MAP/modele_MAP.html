@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="modele_MAP.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="prodigo.png">
+    <center>  <h1>Notification préalable au vol</h1> </center>
+      <center>  <h5>d'un aéronef circulant sans personne à bord utilisé hors vue de son télépilote ou au de-dessus de 50m dans certains espaces</h5></center>
+      <center>  <p>Arrêté relatif à l'utilisation de l'espace aérien par les aéronefs qui circulent sans personne à bord (DEVA15478965P)</p></center>
+      <center>  <input type="radio" name="notif" value="notification"> Notification initiale
+                <input type="radio" name="notif" value="modification"> Modification (annuler en parallèle la notification initiale : voir notice)<br>
+      </center>
+    </header>
+
+<br/>
+
+<main>
+
+  <div id="tablo1">
+
+    <table class="tablo1">
+
+   <tr>
+       <th colspan="2">1. L'exploitant</th>
+   </tr>
+
+   <tr>
+       <td><b>Nom :</b> Valjean</td>
+       <td><b>Si l'exploitant est un particulier :</b> <input type="radio" name="gender" value="female"> Madame &nbsp;  <input type="radio" name="gender" value="male"> Monsieur &nbsp;&nbsp;   Prénom : Jean</td>
+   </tr>
+
+   <tr>
+       <td colspan="2">N° d'exploitant déclaré : 548946564886558<br/> [à défaut : référence de l'attestation du Manuel d'activités particulières : 7867868 &nbsp;&nbsp;   du 02/08/17]</td>
+   </tr>
+
+   <tr>
+       <td colspan="2"><b>Télépilote prévu pour les vols :</b><br/><input type="radio" name="gender2" value="female"> Madame &nbsp;  <input type="radio" name="gender2" value="male"> Monsieur &nbsp;&nbsp;   </input> Nom : VALJEAN &nbsp;&nbsp;   Prénom : jean <br/> Téléphone portable : 06 58 41 23 78 &nbsp;&nbsp;&nbsp;&nbsp;    Courriel : jean-valjean@gmail.com</td>
+   </tr>
+</table>
+
+  </div>
+
+<br/>
+
+<div id="tablo2">
+
+  <table class="tablo2">
+
+ <tr>
+     <th>2. Les aéronefs susceptibles d'être utilisés</th>
+ </tr>
+
+ <tr>
+     <td>Classe(s) : <input type="radio" name="aeronef" value="multicoptere"> Multicoptère(s) &nbsp;  <input type="radio" name="aeronef" value="helicoptere"> Hélicoptère(s) &nbsp;  <input type="radio" name="aeronef" value="avion"> Avion(s) &nbsp;  <input type="radio" name="aeronef" value="dirigeable"> Dirigeable(s) <br/>Masse maximale de l'aéronef (ou la plus élevée des masses maximales si plusieurs aéronefs sont susceptibles d'être utilisés) : -0.6 kg </td>
+ </tr>
+
+</table>
+
+</div>
+
+<br/>
+
+<div id="tablo3">
+
+  <table class="tablo3">
+
+ <tr>
+     <th colspan="2">3. Les opérations prévues</th>
+ </tr>
+
+ <tr>
+     <td>Date : 02/08/17 &nbsp;&nbsp;&nbsp;&nbsp;     Heure de début du vol : 79 h 16 min  &nbsp;&nbsp;   Heure de fin de vol : 12 h 26 min <br/> (jj/mm/aaaa) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       (heure locale, au format 24h) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (heure locale, au format 24h)</td>
+ </tr>
+
+ <tr>
+     <td><input type="radio" name="activite" value="activite"> Activités particulières &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scénario opérationnel : <input type="radio" name="scenario" value="scenario"> S-1 <input type="radio" name="scenario" value="scenario"> S-2 <input type="radio" name="scenario" value="scenario"> S-3 <input type="radio" name="scenario" value="scenario"> S-4 <br/> <input type="radio" name="activite" value="experimentation"> Expérimentation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ou équivalent en cas d'autorisation spécifique ou d'expérimentation) </td>
+ </tr>
+
+ <tr>
+     <td>Position approximative du télépilote : <br/>
+       <table class="tablo3_1">
+         <tr>
+           <td>Commune de Lyon</td>
+           <td>Latitude : <input type="radio" name="latitude" value="latitude"> +(nord) <input type="radio" name="latitude" value="latitude"> -(sud)</td>
+         </tr>
+
+         <tr>
+           <td>Code postal : 69000</td>
+           <td>Longitude : <input type="radio" name="longitude" value="longitude"> +(est) <input type="radio" name="longitude" value="longitude"> -(ouest)</td>
+         </tr>
+
+       </table>
+
+       Scénario S-4 : joindre un descrptif détaillé de la zone de vol prévue (fichiers .kml ou csv acceptés)<br/>
+       <br/>
+       Autres scénarios : les vols doivent être réalisés dans un rayon de 2 km autour de la position référencée ci-dessus ; à défaut compléter par une autre déclaration.
+     </td>
+ </tr>
+
+ <tr>
+   <td>Hauteur maximale de vol : 4 m</td>
+ </tr>
+
+ <tr>
+   <td>Autres informations utiles : <br/> texte rentrer par l'utilisateur</td>
+ </tr>
+
+</table>
+
+</div>
+
+<br/>
+
+<div id="tablo4">
+
+  <table class="tablo4">
+
+ <tr>
+     <th colspan="2">"Je certifie l'exactitude des renseignements figurant dans la présente notification."</th>
+ </tr>
+
+ <tr>
+     <td>A: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Le 02/08/2017 <br/> Lyon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (jj/mm/aaaa)</td>
+     <td>Nom: Valjean <br/> Prénom: jean <br/> Qualité (personnes morales): Roi du monde</td>
+ </tr>
+
+</table>
+
+</div>
+
+<br/>
+
+<footer>
+  <p>Consulter la notice d'information relative à ce formulaire.</p>
+  <p>Le formulaire doir être rempli numériquement et adressé par courriel, <u>au plus tard à minuit la veille des vols prévus,</u> à l'adresse :</p>
+  <a href="http://www2.developpement-durable.gouv.fr/Formulaire-de-saisine-de-l" target="_blank">dsac-operation-rpa-bf@aviation-civile.gouv.fr</a>
+  <p>Toute modification ou annulation doit être signalée.</p>
+  <p>Pour plus d'informations sur les aéronefs circulant sans personne à bord, consulter le site de la direction générale de l'aviation civile :</p>
+  <a href="http://www.developpement-durable.gouv.fr/-Drones-aeronefs-telepilotes-.html" target="_blank">http://www.developpement-durable.gouv.fr/-Drones-aeronefs-telepilotes-.html</a>
+</footer>
+
+</main>
+
+  </body>
+</html>
