@@ -2,7 +2,7 @@ body{
 
 }
 
-header img{
+.img_prodigo{
   width: 13%;
   display: inline-block;
 }
@@ -16,6 +16,13 @@ header h1{
 header h5{
   display: block;
   width: 35%;
+}
+
+.img_cerfa{
+  width: 10%;
+  display: inline-block;
+  float: right;
+  margin-top: -13%;
 }
 
 /*généralitées pour les tableaux */
